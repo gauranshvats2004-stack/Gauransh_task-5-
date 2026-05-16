@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 20px 50px;
+    background-color: white;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.logo {
+    display: inline-block;
+    width: 25%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    vertical-align: middle;
+}
+
+.nav-links {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nav-links a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+
+.user-section {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.user-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e0f2fe;
+    color: #0ea5e9;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    height: 80vh;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.hero-left {
+    display: inline-block;
+    width: 45%;
+    height: 80%;
+    vertical-align: middle;
+    padding: 15vh  0 0 0;
+}
+
+.hero-right {
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    color: #334155;
+    margin-bottom: 10px;
+}
+
+.hero-left span {
+    color: #38bdf8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.book-btn {
+    background-color: #0ea5e9;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10vh;
+}
